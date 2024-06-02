@@ -1,26 +1,26 @@
-.form {
+.header {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(86, 86, 121);
 }
 
-.header {
-    background-color: CornflowerBlue;
-    padding: 5px;
-    margin-bottom: 10px;
+.form {
+    position: relative;
 }
 
-.field {
-    border-radius: 5px;
-    padding: 0 15px;
-    border: none;
+.input {
+    outline: none;
+    padding-left: 25px;
 }
 
 .button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     border: none;
-    outline: none;
-    border-radius: 5px;
-    padding: 0 15px;
+    background-color: transparent;
 }

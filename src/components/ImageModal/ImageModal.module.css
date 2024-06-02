@@ -1,4 +1,4 @@
-.overlay {
+.Overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,8 +10,8 @@
     align-items: center;
 }
 
-.modalImage {
-    display: block;
+.photo {
+    width: 900px;
+    height: 600px;
     object-fit: cover;
-    margin: 0 auto;
 }
